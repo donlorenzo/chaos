@@ -1,5 +1,5 @@
-EXECUTABLE=a.out
-SOURCES=main.cpp
+EXECUTABLE=Automaten
+SOURCES=main.cpp automat.cpp paritaet.cpp regeln.cpp
 
 CC=g++
 CFLAGS=-Wall -Werror
