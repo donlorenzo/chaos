@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Cellular Automat</title>
+    <script src="./test.js"></script>
+  </head>
+  
+  <body onLoad="onInit()">
+    <h1>Cellular Automat</h1>
+    <canvas id="mycanvas" width="100" height="100" style="border:1px solid #000000;"></canvas>
+    <img src="throbber.gif" id="throbber"/>
+    <form action="javascript:reset();">
+      <p>Rule #: <input id="rule" type="number" min="0" max="255" size="3" value="30" /></p>
+      Width: <input id="width" type="number" min="1" max="1000" size="2" value="20" />
+      Height: <input id="height" type="number" min="1" max="1000" size="2" value="20" />
+      Cell Size: <input id="cell_size" type="number" min="2" size="2" value="10" />
+      <br/>
+      <input type="submit" value="refresh"/>
+    </form>
+  </body>
+</html>
